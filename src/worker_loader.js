@@ -26,6 +26,7 @@ self.importScripts = (function (importScripts) {
 })(importScripts);
 //#endif
 
+importScripts('../node_modules/bluebird/js/browser/bluebird.js');
 importScripts('../node_modules/requirejs/require.js');
 
 require.config({paths: {'pdfjs': '.'}});
